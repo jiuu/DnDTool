@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		911C8A952096457C000CB9B2 /* Monsters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911C8A942096457C000CB9B2 /* Monsters.swift */; };
+		911C8A9920964B2E000CB9B2 /* MonsterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911C8A9820964B2E000CB9B2 /* MonsterDetailViewController.swift */; };
+		911C8A9B20964C13000CB9B2 /* MonsterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911C8A9A20964C13000CB9B2 /* MonsterData.swift */; };
+		91ACCA9C2095491B00F7ACD7 /* BestiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ACCA9B2095491B00F7ACD7 /* BestiaryViewController.swift */; };
+		91E08F7720950F860065B813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E08F7620950F860065B813 /* AppDelegate.swift */; };
+		91E08F7920950F860065B813 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E08F7820950F860065B813 /* ViewController.swift */; };
+		91E08F7C20950F860065B813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E08F7A20950F860065B813 /* Main.storyboard */; };
+		91E08F7E20950F880065B813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E08F7D20950F880065B813 /* Assets.xcassets */; };
+		91E08F8120950F880065B813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E08F7F20950F880065B813 /* LaunchScreen.storyboard */; };
+		91E08F8920952C6A0065B813 /* DiceRollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E08F8820952C6A0065B813 /* DiceRollerViewController.swift */; };
+		BE86F118BB9C22596FF39988 /* Pods_DnDTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DA7021C4B6878FEC6F6237 /* Pods_DnDTool.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		235F3BA69D998C6485582AAE /* Pods-DnDTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DnDTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DnDTool/Pods-DnDTool.debug.xcconfig"; sourceTree = "<group>"; };
+		48DA7021C4B6878FEC6F6237 /* Pods_DnDTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DnDTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		911C8A942096457C000CB9B2 /* Monsters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monsters.swift; sourceTree = "<group>"; };
+		911C8A9820964B2E000CB9B2 /* MonsterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailViewController.swift; sourceTree = "<group>"; };
+		911C8A9A20964C13000CB9B2 /* MonsterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterData.swift; sourceTree = "<group>"; };
+		91ACCA9B2095491B00F7ACD7 /* BestiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestiaryViewController.swift; sourceTree = "<group>"; };
+		91E08F7320950F860065B813 /* DnDTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DnDTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E08F7620950F860065B813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91E08F7820950F860065B813 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91E08F7B20950F860065B813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91E08F7D20950F880065B813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91E08F8020950F880065B813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91E08F8220950F880065B813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91E08F8820952C6A0065B813 /* DiceRollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollerViewController.swift; sourceTree = "<group>"; };
+		A5EED0E43101A9CA775E8210 /* Pods-DnDTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DnDTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-DnDTool/Pods-DnDTool.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91E08F7020950F860065B813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE86F118BB9C22596FF39988 /* Pods_DnDTool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1129C52F0D8C78614B5FCD63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				235F3BA69D998C6485582AAE /* Pods-DnDTool.debug.xcconfig */,
+				A5EED0E43101A9CA775E8210 /* Pods-DnDTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B6F37D3C4303FCCF350D18E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48DA7021C4B6878FEC6F6237 /* Pods_DnDTool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91E08F6A20950F860065B813 = {
+			isa = PBXGroup;
+			children = (
+				91E08F7520950F860065B813 /* DnDTool */,
+				91E08F7420950F860065B813 /* Products */,
+				1129C52F0D8C78614B5FCD63 /* Pods */,
+				5B6F37D3C4303FCCF350D18E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91E08F7420950F860065B813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91E08F7320950F860065B813 /* DnDTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91E08F7520950F860065B813 /* DnDTool */ = {
+			isa = PBXGroup;
+			children = (
+				91E08F7620950F860065B813 /* AppDelegate.swift */,
+				91E08F7820950F860065B813 /* ViewController.swift */,
+				91E08F8820952C6A0065B813 /* DiceRollerViewController.swift */,
+				91ACCA9B2095491B00F7ACD7 /* BestiaryViewController.swift */,
+				911C8A9820964B2E000CB9B2 /* MonsterDetailViewController.swift */,
+				911C8A942096457C000CB9B2 /* Monsters.swift */,
+				911C8A9A20964C13000CB9B2 /* MonsterData.swift */,
+				91E08F7A20950F860065B813 /* Main.storyboard */,
+				91E08F7D20950F880065B813 /* Assets.xcassets */,
+				91E08F7F20950F880065B813 /* LaunchScreen.storyboard */,
+				91E08F8220950F880065B813 /* Info.plist */,
+			);
+			path = DnDTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91E08F7220950F860065B813 /* DnDTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E08F8520950F880065B813 /* Build configuration list for PBXNativeTarget "DnDTool" */;
+			buildPhases = (
+				A221457BD14A634B76D22A76 /* [CP] Check Pods Manifest.lock */,
+				91E08F6F20950F860065B813 /* Sources */,
+				91E08F7020950F860065B813 /* Frameworks */,
+				91E08F7120950F860065B813 /* Resources */,
+				AB33135087400ED950BCF916 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DnDTool;
+			productName = DnDTool;
+			productReference = 91E08F7320950F860065B813 /* DnDTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91E08F6B20950F860065B813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ji Woo Pak";
+				TargetAttributes = {
+					91E08F7220950F860065B813 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 91E08F6E20950F860065B813 /* Build configuration list for PBXProject "DnDTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91E08F6A20950F860065B813;
+			productRefGroup = 91E08F7420950F860065B813 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91E08F7220950F860065B813 /* DnDTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91E08F7120950F860065B813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E08F8120950F880065B813 /* LaunchScreen.storyboard in Resources */,
+				91E08F7E20950F880065B813 /* Assets.xcassets in Resources */,
+				91E08F7C20950F860065B813 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A221457BD14A634B76D22A76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DnDTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB33135087400ED950BCF916 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DnDTool/Pods-DnDTool-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DnDTool/Pods-DnDTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91E08F6F20950F860065B813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911C8A9920964B2E000CB9B2 /* MonsterDetailViewController.swift in Sources */,
+				91E08F7920950F860065B813 /* ViewController.swift in Sources */,
+				911C8A9B20964C13000CB9B2 /* MonsterData.swift in Sources */,
+				91ACCA9C2095491B00F7ACD7 /* BestiaryViewController.swift in Sources */,
+				91E08F7720950F860065B813 /* AppDelegate.swift in Sources */,
+				91E08F8920952C6A0065B813 /* DiceRollerViewController.swift in Sources */,
+				911C8A952096457C000CB9B2 /* Monsters.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91E08F7A20950F860065B813 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91E08F7B20950F860065B813 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91E08F7F20950F880065B813 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91E08F8020950F880065B813 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91E08F8320950F880065B813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91E08F8420950F880065B813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91E08F8620950F880065B813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 235F3BA69D998C6485582AAE /* Pods-DnDTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DnDTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiuu.DnDTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91E08F8720950F880065B813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5EED0E43101A9CA775E8210 /* Pods-DnDTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DnDTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiuu.DnDTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91E08F6E20950F860065B813 /* Build configuration list for PBXProject "DnDTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E08F8320950F880065B813 /* Debug */,
+				91E08F8420950F880065B813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E08F8520950F880065B813 /* Build configuration list for PBXNativeTarget "DnDTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E08F8620950F880065B813 /* Debug */,
+				91E08F8720950F880065B813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91E08F6B20950F860065B813 /* Project object */;
+}
